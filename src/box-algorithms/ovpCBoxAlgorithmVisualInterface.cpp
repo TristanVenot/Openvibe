@@ -33,7 +33,7 @@ namespace OpenViBEPlugins {
 			return TRUE;
 		}
 
-		void CBoxAlgorithmVisualInterface::CBoxAlgorithmVisualInterface(void) :
+		CBoxAlgorithmVisualInterface::CBoxAlgorithmVisualInterface(void) :
 			m_pBuilderInterface(NULL),
 			m_pMainWindow(NULL),
 			m_pDrawingArea(NULL),
